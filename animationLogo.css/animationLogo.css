@@ -6,13 +6,17 @@
 
 }
 
-div {
+div:hover{
     width: 100px;
     height: 100px;
     background-color: red;
     animation-name: logoanimation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    transform: rotate(45deg);
+    transform: rotate(90deg);
+    transform: rotate(180deg);
+
 }
 
 #image {
