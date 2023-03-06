@@ -1,4 +1,21 @@
+@keyframes logoanimation {
+0% { background-color: red }
+25% {background-color: aqua;}
+50% {background-color: chartreuse;}
+100% {background-color: blueviolet;}
+
+}
+
 div {
-    width: 1px;
-    height: 1px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: logoanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#image {
+    width: 100px;
+    height: 100px;
 }
